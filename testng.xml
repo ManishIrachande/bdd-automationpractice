@@ -6,7 +6,7 @@
         <classes>
             <class name="com.automationpractice.webpages.AddItemTest"/>
             <class name="com.automationpractice.webpages.RegisterTest"/>
-            <class name="com.automationpractice.webpages.LoginTest"/>
+
         </classes>
 
     </test>
