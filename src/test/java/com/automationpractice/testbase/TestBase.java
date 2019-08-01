@@ -28,7 +28,7 @@ String baseUrl = property.getProperty("baseUrl");
 @BeforeClass
     public static void setUpBeforeClass(){
 
-    PropertyConfigurator.configure("C:\\Users\\Manish\\IdeaProjects\\bdd-atomationpractice\\src\\test\\java\\com\\automationpractice\\resources\\propertiesfile\\config.properties");
+    PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\test\\java\\com\\automationpractice\\resources\\propertiesfile\\config.properties");
 }
 @BeforeMethod
     public void setUp(){
