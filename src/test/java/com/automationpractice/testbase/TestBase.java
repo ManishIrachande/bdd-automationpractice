@@ -33,7 +33,7 @@ String baseUrl = property.getProperty("baseUrl");
 @BeforeMethod
     public void setUp(){
 
-    selector.browseSelector(browser);
+    selector.browserSelector(browser);
     driver.get(baseUrl);
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
