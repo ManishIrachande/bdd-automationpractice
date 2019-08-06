@@ -12,7 +12,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserSelector extends BasePage {
 
-    public void browseSelector(String browser) {
+    public void browserSelector(String browser) {
 
         if (browser.equalsIgnoreCase("Chrome")) {
             System.setProperty("webdriver.chrome.driver",
